@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="player">
+      <input id="range" value="0" type="range" />
+      <div class="controllers">
+        <button class="controller" id="playButton">play</button>
+        <button class="controller" id="repeatButton">repeat</button>
+        <button class="controller" id="shufleButton">shufle</button>
+        <button class="controller" id="pauseButton">pause</button>
+      </div>
+      <div class="addfile">
+        <input id="addFile" type="file" hidden />
+        <label for="addFile">+</label>
+      </div>
+      <div id="tracks" class="tracks"></div>
+    </div>
+    <audio id="myAudio"></audio>
+    <script src="main.js"></script>
+  </body>
+</html>

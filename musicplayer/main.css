@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#player {
+  border: 1px solid black;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.controllers {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.addfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+  border: 2px solid green;
+  background: green;
+  color: white;
+}
+.addfile label {
+  display: block;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.active {
+  background: blue;
+  color: white;
+}
+
+.track {
+  padding: 20px;
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.track span:nth-of-type(2) {
+  cursor: pointer;
+}
+
+.track.active {
+  background-color: #ccc;
+  color: black;
+}
